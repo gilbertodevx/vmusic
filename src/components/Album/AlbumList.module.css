@@ -1,0 +1,12 @@
+.album_list {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.item {
+  padding: 1vh 1vw 1vh 1vw;
+}

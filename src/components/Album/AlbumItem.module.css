@@ -1,0 +1,62 @@
+h3 {
+  /* font-family: 'Inter'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  /* line-height: 39px; */
+  color: #000000;
+}
+
+h4 {
+  /* font-family: 'Inter'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  /* line-height: 28px; */
+
+  color: #000000;
+
+  opacity: 0.6;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 14vw;
+  height: auto;
+
+  background: #ffffff;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
+
+.card img {
+  width: 12vw;
+  height: 21vh;
+  margin-top: 2vh;
+  border-radius: 7px;
+}
+
+.card .title {
+  width: 12vw;
+  height: 21vh;
+  overflow-wrap: break-all;
+}
+
+.card button {
+  margin-bottom: 2vh;
+  padding: 1vh;
+  outline: none;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0);
+  background-color: #dcdcdc;
+
+  cursor: pointer;
+}
+.card button:active {
+  background-color: #efd38c;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  behavior: 'smooth';
+}

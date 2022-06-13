@@ -1,0 +1,14 @@
+/* section {
+  display: flex;
+} */
+.results {
+  text-align: center;
+  width: 100%;
+  padding: 2vh 0vw 2vh 0vw;
+  font-size: 2em;
+}
+
+.results_notfound {
+  font-size: 2em;
+  color: red;
+}

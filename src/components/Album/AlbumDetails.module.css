@@ -1,0 +1,12 @@
+.songs_list {
+  list-style: none;
+}
+
+.close_button {
+  text-align: center;
+}
+
+.song_container {
+  display: flex;
+  flex-direction: column;
+}
