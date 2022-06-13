@@ -1,4 +1,5 @@
-# vmusic
+
+<img width="477" alt="Vmusic logo" src="https://user-images.githubusercontent.com/6294391/173384775-1518a174-08ba-46cc-83be-90be9fc1a113.png"/>
 
 ## Description
 
@@ -10,9 +11,10 @@ At the time of your search you can choose to filter with the band's album and th
 
 ## Requirements
 
+
+- GIT
 - Nodejs
 - TypeScript
-- Git Flow
 
 ## Installation
 
@@ -22,23 +24,6 @@ At the time of your search you can choose to filter with the band's album and th
 - Install TypeScript: npm install --save typescript @types/node @types/react @types/react-dom @types/jest
 - Initialize NPM: npm init
 
-## Instruction for Git Flow
-
-After clone project:
-
-- Step foward with enter key
-- Select develop branch
-- Work into a support branch (sub branch):
-  - Creating a support branch with git flow feature (to create a new feature for project)
-  - Checkout for develop branch
-  - Merge that feature branch (into develop branch)
-  - Always Finish the feature branch
-- Final Step: Pushing the develop branch (local) to the develop branch (repository) > git push --set-upstream origin develop
-
-Additional info [Git Flow Documentation](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
-
-> ⚠️ Before pushing into master branch, your contributions will be reviewed by owner/admin
-> ⚠️ Before starting into new feature, do a git pull inside a develop branch
 
 ## Available Scripts
 
